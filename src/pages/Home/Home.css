@@ -1,0 +1,44 @@
+/* Home.css */
+
+body,
+html,
+#root,
+.App,
+.Container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+.Container {
+  width: 100%;
+  height: 100%;
+  background-color: #1c838e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuHomeContainer {
+  width: 19%;
+  height: 96%;
+  margin-right: 2%;
+}
+
+.ContainerViewItemMenu {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-right: 2%;
+}
+
+.mainContent {
+  width: 80%;
+  display: flex;
+  margin-right: 2%;
+  margin-left: 2%;
+  height: 100%;
+}

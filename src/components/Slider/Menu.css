@@ -1,0 +1,136 @@
+/* menu.css */
+.menu-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e0f7fa;
+  border-radius: 8px;
+}
+
+.header {
+  width: 100%;
+  height: 65px;
+  background-color: #4b9da5;
+  border-radius: 8px 8px 0 0;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+}
+
+.username {
+  font-family: IRANYekan, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
+
+.phone-number {
+  font-family: IRANYekan, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: white;
+}
+
+.caret-down-container {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caret-down-icon {
+  color: white;
+}
+
+.menu-content {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.menu-content::-webkit-scrollbar {
+  width: 0;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.menu-item-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  margin: 0 16px;
+}
+
+.menu-item-text {
+  font-family: IRANYekan, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.angle-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.submenu {
+  margin-top: 10px;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: #e0f7fa;
+  max-height: 200px;
+  overflow: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.submenu::-webkit-scrollbar {
+  width: 0;
+}
+
+.submenu a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+}
+
+.exit-container {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+  align-items: center;
+}

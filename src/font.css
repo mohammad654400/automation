@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'IRANYekan';
+    src: url('../assets/iranyekan/Qs_Iranyekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'IRANYekan';
+    src: url('../assets/iranyekan/Qs_Iranyekan black.ttf') format('truetype');
+    font-weight: 900; /* black */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'IRANYekan';
+    src: url('../assets/iranyekan/Qs_Iranyekan bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'IRANYekan';
+    src: url('../assets/iranyekan/Qs_Iranyekan extrablack.ttf') format('truetype');
+    font-weight: 800; /* extra black */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'IRANYekan';
+    src: url('../assets/iranyekan/Qs_Iranyekan extrabold.ttf') format('truetype');
+    font-weight: 800; /* extra bold */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'IRANYekan';
+    src: url('../assets/iranyekan/Qs_Iranyekan light.ttf') format('truetype');
+    font-weight: 300; /* light */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'IRANYekan';
+    src: url('../assets/iranyekan/Qs_Iranyekan medium.ttf') format('truetype');
+    font-weight: 500; /* medium */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'IRANYekan';
+    src: url('../assets/iranyekan/Qs_Iranyekan thin.ttf') format('truetype');
+    font-weight: 100; /* thin */
+    font-style: normal;
+  }
+  

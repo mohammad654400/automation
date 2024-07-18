@@ -1,0 +1,63 @@
+/* .ContainerHomePage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashBortContainer {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sideContainer {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+.calendarContainer,
+.noteContainer {
+  width: 100%;
+  height: 48%;
+  background-color: #e8f3f4;
+  border-radius: 16px;
+} */
+.ContainerHomePage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashBortContainer {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sideContainer {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+.calendarContainer,
+.noteContainer {
+  width: 100%;
+  height: 48%;
+  background-color: #e8f3f4;
+  border-radius: 16px;
+  overflow: hidden; /* جلوگیری از اسکرول داخلی */
+}

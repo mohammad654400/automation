@@ -1,0 +1,94 @@
+/* dashbord.css */
+.dashboard-container {
+  width: 100%;
+  height: 17%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dashboard-panel {
+  width: 48%;
+  height: 100%;
+  background-color: #e8f3f4;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.panel-content {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.panel-content h2,
+.panel-content span {
+  font-family: "IRANYekan", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.panel-image {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.icon-image {
+  width: 89px;
+  height: 89px;
+}
+
+.search-bar {
+  width: 69%;
+  height: 100%;
+  background-color: #e8f3f4;
+  border-radius: 8px;
+  padding-right: 20px;
+  font-family: "IRANYekan", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  border-color: E8F3F4;
+  border-width: 0;
+}
+
+.data-table-container {
+  width: 100%;
+  max-height: 100%;
+  background-color: #e8f3f4;
+  border-radius: 16px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+table {
+  width: 100%;
+}
+
+thead {
+  width: 100%;
+}
+tr {
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #000;
+}
+th,td {
+  display: flex;
+  width: 16%;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,45 @@
+/* note.css */
+.title {
+    font-family: "IRANYekan", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    height: 10%;
+    width: 90%;
+    margin: 0;
+    margin-right: 24px;
+    margin-top: 30px;
+  }
+  
+  .listNote {
+    height: 300px;
+    width: 90%;
+    max-height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .buttonNote {
+    background-color: rgba(49, 125, 133, 0.701);
+    width: 90%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border: 0;
+    border-radius: 6px;
+  }
+  .textNote {
+    color: white;
+    font-family: "IRANYekan", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  .iconNote {
+    color: white;
+    margin-left: 20px;
+  }
+  

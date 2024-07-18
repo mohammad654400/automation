@@ -1,0 +1,128 @@
+/* login.css */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(135deg, #00041a, #0689ff);
+  font-family: Arial, sans-serif;
+}
+
+.bodyy {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 40%;
+  align-content: center;
+  position: absolute;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.large {
+  bottom: 0;
+  height: 80%;
+}
+
+.small {
+  bottom: 0;
+  height: 20%;
+}
+
+.card input {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  text-align: right;
+  background-color: rgb(55, 81, 118);
+}
+
+.card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  direction: rtl;
+  justify-content: flex-end;
+}
+
+.input-icon {
+  padding: 10px;
+  background: rgb(2, 38, 74);
+  color: white;
+}
+
+.input-group input {
+  border: 1px solid #ccc;
+}
+
+.input-group .form-control {
+  border-left: 0;
+}
+
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  background-color: #001f3f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+p {
+  color: red;
+  margin: 0;
+}
